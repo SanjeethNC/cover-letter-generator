@@ -4,9 +4,9 @@ docx2txt==0.8
 
 transformers==4.38.2
 torch==2.2.0
-sentencepiece==0.1.99  # ✅ safe version with wheels
+sentencepiece==0.1.99
 accelerate==0.27.2
-safetensors==0.4.0      # ✅ pin version for compatibility
+safetensors==0.4.1      # Updated to satisfy transformers' requirement
 
-groq==0.5.0             # ✅ add version for stability
+groq==0.5.0
 huggingface_hub==0.20.2
